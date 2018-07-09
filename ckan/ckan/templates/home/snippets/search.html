@@ -1,0 +1,20 @@
+{% set tags = h.get_facet_items_dict('tags', limit=3) %}
+{% set placeholder = _('E.g. environment') %}
+
+<div>
+  <form class="module-content search-form" method="get" action="{% url_for controller='package', action='search' %}">
+    <div>
+		<i class="fa fa-search" style="float:left;color:#B4B4B5;font-size:28px;margin-right:1%"></i>
+		<input  type="text" style="width:86%;float:left;height:35px" name="q" value="" autocomplete="off" placeholder="请输入环境/民生/政府等关键词" />
+      <button type="submit" style="height:35px">
+        <span>全网搜索</span>
+      </button>
+	  <p style="position: absolute;left:62px;margin-top:3px;color:#B4B4B5">
+		<span>热门标签</span>
+    {% for tag in tags %}
+      <a class="tag" href="{% url_for controller='package', action='search', tags=tag.name %}">{{ h.truncate(tag.display_name, 22) }}</a>
+    {% endfor %}
+	  </p>
+    </div>
+  </form>
+</div>
