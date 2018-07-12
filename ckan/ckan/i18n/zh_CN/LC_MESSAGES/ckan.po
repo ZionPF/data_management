@@ -3262,7 +3262,7 @@ msgid ""
 "particular theme, or as a very simple way to help people find and search "
 "your own published datasets. "
 msgstr ""
-"你可以使用 CKAN 提供的板块功能来创建和管理数据集的集合。这可以用来整理同一个项目或者团队的数据集，或者仅是方便其他人搜索到你发布的数据集。"
+"你可以使用提供的板块功能来创建和管理数据集的集合。这可以用来整理同一个项目或者团队的数据集，或者仅是方便其他人搜索到你发布的数据集。"
 
 #: ckan/templates/group/snippets/history_revisions.html:10
 #: ckan/templates/package/snippets/history_revisions.html:10
@@ -3543,7 +3543,7 @@ msgid ""
 "<p><strong>Member:</strong> Can view the organization's private datasets, "
 "but not add new datasets.</p> "
 msgstr ""
-"<p><strong>管理者：</strong>可以新增/编辑和删除数据集，以及管理公司成员。< /p> <p><strong>编辑：</strong>"
+"<p><strong>管理者：</strong>可以新增/编辑和删除数据集，以及管理公司成员。</p> <p><strong>编辑：</strong>"
 " 可以新增和编辑资料集，但无法管理公司成员。</p> <p><strong>一般成员：</strong> "
 "可以浏览公司的私有的数据集，但无法新增数据集。</p>"
 
@@ -3591,7 +3591,7 @@ msgid ""
 " CKAN Organizations are used to create, manage and publish collections of "
 "datasets. Users can have different roles within an Organization, depending "
 "on their level of authorisation to create, edit and publish. "
-msgstr "CKAN 公司使用来创建，管理，发布数据集集合的。用户可以在公司中扮演不同的角色，并被赋予不同级别的权限来创建，编辑和发布数据。"
+msgstr "公司使用来创建，管理，发布数据集集合的。用户可以在公司中扮演不同的角色，并被赋予不同级别的权限来创建，编辑和发布数据。"
 
 #: ckan/templates/organization/snippets/organization_form.html:10
 msgid "My Organization"
@@ -4316,7 +4316,7 @@ msgstr "该数据集满足开放知识定义的要求"
 
 #: ckan/templates/snippets/organization.html:48
 msgid "There is no description for this organization"
-msgstr "没有关于次机构的描述"
+msgstr "没有关于此机构的描述"
 
 #: ckan/templates/snippets/package_item.html:57
 msgid "This dataset has no description"
